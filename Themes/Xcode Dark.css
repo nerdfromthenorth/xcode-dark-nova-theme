@@ -275,10 +275,10 @@ style.selector.identifier.id {
     color: hsl(166, 36%, 56%);
 }
 style.selector.identifier.class {
-    color: hsl(267, 72%, 65%);
+    color: hsl(27, 45%, 54%);
 }
 style.selector.pseudoclass {
-    color: hsl(267, 72%, 65%);
+    color: hsl(27, 45%, 54%);
 }
 style.selector.pseudoelement {
     color: hsl(166, 36%, 56%);
