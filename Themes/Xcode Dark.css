@@ -134,91 +134,120 @@ meta.gutter.selected {
  */
 
 keyword {
-    color: hsl(210, 100%, 70%);
+    color: hsl(336, 57%, 63%);
+    /* color: hsl(210, 100%, 70%); */
+    font-weight: bold;
 }
 comment {
-    color: hsl(210, 11%, 45%);
+    color: hsl(210, 11%, 47%);
+    /* color: hsl(210, 11%, 45%); */
 }
 processing {
-    color: hsl(210, 11%, 45%);
+    color: hsl(25, 98%, 62%);
+    /* color: hsl(210, 11%, 45%); */
 }
 declaration {
-    color: hsl(210, 11%, 45%);
+    color: hsl(210, 11%, 47%);
+    /* color: hsl(210, 11%, 45%); */
 }
 bracket {
-    color: hsl(210, 23%, 68%);
+    color: hsla(0, 0%, 100%, 0.85);
+    /* color: hsl(210, 23%, 68%); */
 }
 operator {
-    color: hsl(210, 23%, 68%);
+    color: hsla(0, 0%, 100%, 0.85);
+    /* color: hsl(210, 23%, 68%); */
 }
 invalid {
-    background-color: hsl(355, 91%, 57%);
-    color: hsl(60, 33%, 96%);
+    background-color: hsl(5, 96%, 68%);
+    /* background-color: hsl(355, 91%, 57%); */
+    color: hsla(0, 0%, 100%, 0.85);
+    /* color: hsl(60, 33%, 96%); */
 }
 link {
-    color: hsl(210, 100%, 70%);
+    color: hsl(224, 100%, 66%);
+    /* color: hsl(210, 100%, 70%); */
 }
 
 /* Values */
 value.boolean {
-    color: hsl(210, 100%, 70%);
+    color: hsl(336, 57%, 63%);
+    /* color: hsl(210, 100%, 70%); */
+    font-weight: bold;
 }
 value.null {
-    color: hsl(210, 100%, 70%);
+    color: hsl(336, 57%, 63%);
+    /* color: hsl(210, 100%, 70%); */
+    font-weight: bold;
 }
 value.number {
-    color: hsl(210, 100%, 70%);
+    color: hsl(50, 52%, 61%);
+    /* color: hsl(210, 100%, 70%); */
 }
 value.entity {
-    color: hsl(210, 100%, 70%);
+    color: hsl(268, 100%, 83%);
+    /* color: hsl(210, 100%, 70%); */
 }
 value.symbol {
-    color: hsl(210, 100%, 70%);
+    color: hsl(268, 100%, 83%);
+    /* color: hsl(210, 100%, 70%); */
 }
 
 /* Identifiers */
 identifier.type {
-    color: hsl(258, 57%, 70%);
+    color: hsl(194, 100%, 68%);
+    /* color: hsl(258, 57%, 70%); */
 }
 identifier.constant {
 }
 identifier.global, identifier.variable {
-    color: hsl(268, 100%, 83%);
+    color: hsl(166, 36%, 56%);
+    /* color: hsl(268, 100%, 83%); */
 }
 identifier.property,
 identifier.decorator,
 identifier.function,
 identifier.method {
-    color: hsl(166, 41%, 62%);
+    color: hsl(195, 50%, 50%);
+    /* color: hsl(166, 41%, 62%); */
 }
 identifier.key {
-    color: hsl(268, 100%, 83%);
+    color: hsl(194, 100%, 68%);
+    /* color: hsl(268, 100%, 83%); */
 }
 identifier.argument {
     color: hsl(268, 100%, 83%);
+    /* color: hsl(268, 100%, 83%); */
 }
 
 /* Strings */
 string {
-    color: hsl(5, 100%, 68%);
+    color: hsl(5, 96%, 68%);
+    /* color: hsl(5, 100%, 68%); */
 }
 string.key {
-    color: hsl(210, 100%, 70%);
+    color: hsl(194, 100%, 68%);
+    /* color: hsl(210, 100%, 70%); */
 }
 string-template {
-    color: hsl(27, 100%, 70%);
+    color: hsl(25, 98%, 62%);
+    /* color: hsl(27, 100%, 70%); */
 }
 string-template.value {
-    color: hsl(27, 100%, 64%);
+    color: hsl(25, 98%, 62%);
+    /* color: hsl(27, 100%, 64%); */
 }
 regex {
-    color: hsl(40, 100%, 64%);
+    color: hsl(25, 98%, 62%);
+    /* color: hsl(40, 100%, 64%); */
 }
 regex.escaped {
-    color: hsl(27, 97%, 63%);
+    color: hsl(25, 98%, 62%);
+    /* color: hsl(27, 97%, 63%); */
 }
 cdata {
-    color: hsl(210, 100%, 70%);
+    color: hsl(210, 11%, 47%);
+    /* color: hsl(210, 100%, 70%); */
 }
 
 /* Markup */
