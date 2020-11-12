@@ -94,27 +94,32 @@ meta.document.textfield.highlighted {
 
 /* Text */
 meta.text {
-    color: hsl(210, 49%, 90%);
+    color: hsla(0, 0%, 100%, 0.85);
+    /* color: hsl(210, 49%, 90%); */
 }
 meta.text.invisible {
-    color: hsla(210, 100%, 90%, 0.12);
+    color: hsl(214, 16%, 31%);
+    /* color: hsla(210, 100%, 90%, 0.12); */
 }
 meta.text.selected {
 }
 
 /* Cursor */
 meta.cursor {
-    background-color: hsl(210, 5%, 15%);
+    background-color: hsl(225, 10%, 15%);
+    /* background-color: hsl(210, 5%, 15%); */
 }
 
 /* Indentation Guides */
 meta.indentguide {
-    border-color: hsla(220, 5%, 48%, 0.2);
+    border-color: hsla(240, 7%, 50%, 0.2);
+    /* border-color: hsla(220, 5%, 48%, 0.2); */
 }
 
 /* Gutter */
 meta.gutter {
-    color: hsl(210, 5%, 38%);
+    color: hsl(240, 7%, 40%);
+    /* color: hsl(210, 5%, 38%); */
 }
 meta.gutter.selected {
     background-color: hsl(240, 7%, 12%);
