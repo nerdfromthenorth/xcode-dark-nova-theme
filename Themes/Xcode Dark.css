@@ -14,7 +14,6 @@ meta.window {
 }
 meta.titlebar {
     color: hsl(240, 19%, 78%);
-    /* color: hsl(210, 17%, 76%); */
     border-color: hsla(0, 0%, 0%, 0.6);
 }
 meta.titlebar.inactive {
@@ -22,14 +21,11 @@ meta.titlebar.inactive {
 
 meta.button {
     background: linear-gradient(hsl(240, 7%, 34%), hsl(240, 7%, 27%));
-    /* background: linear-gradient(hsl(210, 5%, 32%), hsl(210, 5%, 25%)); */
     border: linear-gradient(hsl(240, 7%, 19%), hsl(240, 7%, 15%));
-    /* border: linear-gradient(hsl(210, 5%, 17%), hsl(210, 5%, 13%)); */
     color: white;
 }
 meta.button.highlighted {
     background: linear-gradient(hsl(240, 7%, 44%), hsl(240, 7%, 44%));
-    /* background: linear-gradient(hsl(210, 5%, 42%), hsl(210, 5%, 34%)); */
     color: white;
 }
 meta.button.selected {
@@ -44,15 +40,11 @@ meta.button.disabled {
 
 meta.textfield {
     background-color: hsl(240, 7%, 15%);
-    /* background-color: hsl(210, 5%, 13%); */
     border-color: hsl(240, 7%, 24%);
-    /* border-color: hsl(210, 5%, 23%); */
 }
 meta.textfield.highlighted {
     background-color: hsl(240, 7%, 12%);
-    /* background-color: hsl(210, 5%, 10%); */
     border-color: hsl(240, 7%, 24%);
-    /* border-color: hsl(210, 5%, 23%); */
 }
 
 /*
@@ -60,46 +52,35 @@ meta.textfield.highlighted {
  */
 meta.document {
     background-color: hsl(240, 7%, 13%);
-    /* background-color: hsl(210, 5%, 11%); */
     border-color: hsla(0, 0%, 100%, 0.1);
 }
 
 meta.document.button {
     background: linear-gradient(hsl(240, 7%, 27%), hsl(240, 7%, 23%));
-    /* background: linear-gradient(hsl(210, 5%, 25%), hsl(210, 5%, 21%)); */
     border: linear-gradient(hsl(240, 7%, 13%), hsl(240, 7%, 5%));
-    /* border: linear-gradient(hsl(210, 5%, 11%), hsl(210, 5%, 8%)); */
 }
 meta.document.button.disabled {
     background: linear-gradient(hsla(250, 7%, 27%, 0.3), hsla(250, 7%, 23%, 0.3));
-    /* background: linear-gradient(hsla(220, 5%, 25%, 0.3), hsla(220, 5%, 21%, 0.3)); */
 }
 meta.document.button.highlighted {
     background: linear-gradient(hsl(240, 7%, 36%), hsl(240, 7%, 32%));
-    /* background: linear-gradient(hsl(210, 5%, 34%), hsl(210, 5%, 30%)); */
 }
 
 meta.document.textfield {
     background-color: hsl(240, 7%, 12%);
-    /* background-color: hsl(210, 5%, 10%); */
     border-color: hsl(240, 7%, 21%);
-    /* border-color: hsl(210, 5%, 19%); */
 }
 meta.document.textfield.highlighted {
     background-color: hsl(240, 7%, 12%);
-    /* background-color: hsl(210, 5%, 10%); */
     border-color: hsl(240, 7%, 21%);
-    /* border-color: hsl(210, 5%, 19%); */
 }
 
 /* Text */
 meta.text {
     color: hsla(0, 0%, 100%, 0.85);
-    /* color: hsl(210, 49%, 90%); */
 }
 meta.text.invisible {
     color: hsl(214, 16%, 31%);
-    /* color: hsla(210, 100%, 90%, 0.12); */
 }
 meta.text.selected {
 }
@@ -107,25 +88,20 @@ meta.text.selected {
 /* Cursor */
 meta.cursor {
     background-color: hsl(225, 10%, 15%);
-    /* background-color: hsl(210, 5%, 15%); */
 }
 
 /* Indentation Guides */
 meta.indentguide {
     border-color: hsla(240, 7%, 50%, 0.2);
-    /* border-color: hsla(220, 5%, 48%, 0.2); */
 }
 
 /* Gutter */
 meta.gutter {
     color: hsl(240, 7%, 40%);
-    /* color: hsl(210, 5%, 38%); */
 }
 meta.gutter.selected {
     background-color: hsl(240, 7%, 12%);
-    /* background-color: hsl(210, 5%, 10%); */
     color: hsl(240, 19%, 78%);
-    /* color: hsl(210, 17%, 76%); */
 }
 
 
@@ -135,154 +111,121 @@ meta.gutter.selected {
 
 keyword {
     color: hsl(336, 57%, 63%);
-    /* color: hsl(210, 100%, 70%); */
     font-weight: bold;
 }
 comment {
     color: hsl(210, 11%, 47%);
-    /* color: hsl(210, 11%, 45%); */
 }
 processing {
     color: hsl(25, 98%, 62%);
-    /* color: hsl(210, 11%, 45%); */
 }
 declaration {
     color: hsl(210, 11%, 47%);
-    /* color: hsl(210, 11%, 45%); */
 }
 bracket {
     color: hsla(0, 0%, 100%, 0.85);
-    /* color: hsl(210, 23%, 68%); */
 }
 operator {
     color: hsla(0, 0%, 100%, 0.85);
-    /* color: hsl(210, 23%, 68%); */
 }
 invalid {
     background-color: hsl(5, 96%, 68%);
-    /* background-color: hsl(355, 91%, 57%); */
     color: hsla(0, 0%, 100%, 0.85);
-    /* color: hsl(60, 33%, 96%); */
 }
 link {
     color: hsl(224, 100%, 66%);
-    /* color: hsl(210, 100%, 70%); */
 }
 
 /* Values */
 value.boolean {
     color: hsl(336, 57%, 63%);
-    /* color: hsl(210, 100%, 70%); */
     font-weight: bold;
 }
 value.null {
     color: hsl(336, 57%, 63%);
-    /* color: hsl(210, 100%, 70%); */
     font-weight: bold;
 }
 value.number {
     color: hsl(50, 52%, 61%);
-    /* color: hsl(210, 100%, 70%); */
 }
 value.entity {
     color: hsl(268, 100%, 83%);
-    /* color: hsl(210, 100%, 70%); */
 }
 value.symbol {
     color: hsl(268, 100%, 83%);
-    /* color: hsl(210, 100%, 70%); */
 }
 
 /* Identifiers */
 identifier.type {
     color: hsl(194, 100%, 68%);
-    /* color: hsl(258, 57%, 70%); */
 }
 identifier.constant {
 }
 identifier.global, identifier.variable {
     color: hsl(166, 36%, 56%);
-    /* color: hsl(268, 100%, 83%); */
 }
 identifier.property,
 identifier.decorator,
 identifier.function,
 identifier.method {
     color: hsl(195, 50%, 50%);
-    /* color: hsl(166, 41%, 62%); */
 }
 identifier.key {
     color: hsl(194, 100%, 68%);
-    /* color: hsl(268, 100%, 83%); */
 }
 identifier.argument {
     color: hsl(268, 100%, 83%);
-    /* color: hsl(268, 100%, 83%); */
 }
 
 /* Strings */
 string {
     color: hsl(5, 96%, 68%);
-    /* color: hsl(5, 100%, 68%); */
 }
 string.key {
     color: hsl(194, 100%, 68%);
-    /* color: hsl(210, 100%, 70%); */
 }
 string-template {
     color: hsl(25, 98%, 62%);
-    /* color: hsl(27, 100%, 70%); */
 }
 string-template.value {
     color: hsl(25, 98%, 62%);
-    /* color: hsl(27, 100%, 64%); */
 }
 regex {
     color: hsl(25, 98%, 62%);
-    /* color: hsl(40, 100%, 64%); */
 }
 regex.escaped {
     color: hsl(25, 98%, 62%);
-    /* color: hsl(27, 97%, 63%); */
 }
 cdata {
     color: hsl(210, 11%, 47%);
-    /* color: hsl(210, 100%, 70%); */
 }
 
 /* Markup */
 markup.heading {
     color: hsl(27, 45%, 54%);
-    /* color: hsl(30, 50%, 60%); */
 }
 markup.line {
     color: hsl(50, 52%, 61%);
-    /* color: hsl(60, 43%, 56%); */
 }
 markup.bold {
     color: hsl(195, 50%, 50%);
-    /* color: hsl(196, 49%, 53%); */
     font-weight: bold;
 }
 markup.italic {
     color: hsl(166, 36%, 56%);
-    /* color: hsl(94, 44%, 64%); */
     font-style: italic;
 }
 markup.strikethrough {
     color: hsl(5, 96%, 68%);
-    /* color: hsl(0, 100%, 70%); */
 }
 markup.list.item {
     color: hsl(27, 45%, 54%);
-    /* color: hsl(30, 50%, 60%); */
 }
 markup.code {
     background-color: rgba(128, 128, 128, 0.2);
 }
 markup.link {
     color: hsl(224, 100%, 66%);
-    /* color: hsl(210, 100%, 70%); */
 }
 
 /* Types */
@@ -294,7 +237,6 @@ definition.union union.name,
 definition.struct struct.name {
     font-weight: bold;
     color: hsl(194, 100%, 68%);
-    /* color: hsl(258, 57%, 70%); */
 }
 
 /* Members */
@@ -302,35 +244,28 @@ definition.property property.name,
 definition.function function.name,
 definition.method method.name {
     color: hsl(195, 50%, 50%);
-    /* color: hsl(210, 100%, 95%); */
 }
 
 /* Tags */
 tag {
     color: hsl(195, 50%, 50%);
-    /* color: hsl(166, 41%, 62%); */
 }
 tag.framework {
     color: hsl(267, 72%, 65%);
-    /* color: hsl(258, 57%, 70%); */
 }
 tag.attribute.name {
     color: hsl(194, 100%, 68%);
-    /* color: hsl(95, 55%, 60%); */
 }
 tag.attribute.value {
     color: hsl(5, 96%, 68%);
-    /* color: hsl(5, 100%, 69%); */
 }
 tag.attribute.value.link {
     color: hsl(224, 100%, 66%);
-    /* color: hsl(210, 100%, 70%); */
 }
 
 /* Styles */
 style.at {
     color: hsl(25, 98%, 62%);
-    /* color: hsl(25, 100%, 63%); */
     font-weight: bold;
 }
 style.selector.element {
@@ -338,42 +273,32 @@ style.selector.element {
 }
 style.selector.identifier.id {
     color: hsl(166, 36%, 56%);
-    /* color: hsl(166, 41%, 62%); */
 }
 style.selector.identifier.class {
     color: hsl(267, 72%, 65%);
-    /* color: hsl(258, 57%, 70%); */
 }
 style.selector.pseudoclass {
     color: hsl(267, 72%, 65%);
-    /* color: hsl(258, 57%, 70%); */
 }
 style.selector.pseudoelement {
     color: hsl(166, 36%, 56%);
-    /* color: hsl(166, 41%, 62%); */
 }
 style.attribute.name {
     color: hsl(166, 36%, 56%);
-    /* color: hsl(148, 29%, 58%); */
 }
 style.value.number {
     color: hsl(268, 100%, 83%);
-    /* color: hsl(249, 84%, 74%); */
 }
 style.value.color.hex {
     color: hsl(268, 100%, 83%);
-    /* color: hsl(249, 84%, 74%); */
 }
 style.value.keyword {
     color: hsl(166, 75%, 78%);
-    /* color: hsl(210, 100%, 70%); */
 }
 style.value.color.named {
     color: hsl(166, 75%, 78%);
-    /* color: hsl(210, 100%, 70%); */
 }
 style.value.identifier.function {
     color: hsl(50, 52%, 61%);
     font-weight: bold;
-    /* color: hsl(40, 100%, 64%); */
 }
