@@ -329,39 +329,51 @@ tag.attribute.value.link {
 
 /* Styles */
 style.at {
-    color: hsl(25, 100%, 63%);
+    color: hsl(25, 98%, 62%);
+    /* color: hsl(25, 100%, 63%); */
     font-weight: bold;
 }
 style.selector.element {
     font-weight: bold;
 }
 style.selector.identifier.id {
-    color: hsl(166, 41%, 62%);
+    color: hsl(166, 36%, 56%);
+    /* color: hsl(166, 41%, 62%); */
 }
 style.selector.identifier.class {
-    color: hsl(258, 57%, 70%);
+    color: hsl(267, 72%, 65%);
+    /* color: hsl(258, 57%, 70%); */
 }
 style.selector.pseudoclass {
-    color: hsl(258, 57%, 70%);
+    color: hsl(267, 72%, 65%);
+    /* color: hsl(258, 57%, 70%); */
 }
 style.selector.pseudoelement {
-    color: hsl(166, 41%, 62%);
+    color: hsl(166, 36%, 56%);
+    /* color: hsl(166, 41%, 62%); */
 }
 style.attribute.name {
-    color: hsl(148, 29%, 58%);
+    color: hsl(166, 36%, 56%);
+    /* color: hsl(148, 29%, 58%); */
 }
 style.value.number {
-    color: hsl(249, 84%, 74%);
+    color: hsl(268, 100%, 83%);
+    /* color: hsl(249, 84%, 74%); */
 }
 style.value.color.hex {
-    color: hsl(249, 84%, 74%);
+    color: hsl(268, 100%, 83%);
+    /* color: hsl(249, 84%, 74%); */
 }
 style.value.keyword {
-    color: hsl(210, 100%, 70%);
+    color: hsl(166, 75%, 78%);
+    /* color: hsl(210, 100%, 70%); */
 }
 style.value.color.named {
-    color: hsl(210, 100%, 70%);
+    color: hsl(166, 75%, 78%);
+    /* color: hsl(210, 100%, 70%); */
 }
 style.value.identifier.function {
-    color: hsl(40, 100%, 64%);
+    color: hsl(50, 52%, 61%);
+    font-weight: bold;
+    /* color: hsl(40, 100%, 64%); */
 }
