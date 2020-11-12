@@ -293,14 +293,16 @@ definition.enum enum.name,
 definition.union union.name,
 definition.struct struct.name {
     font-weight: bold;
-    color: hsl(258, 57%, 70%);
+    color: hsl(194, 100%, 68%);
+    /* color: hsl(258, 57%, 70%); */
 }
 
 /* Members */
 definition.property property.name,
 definition.function function.name,
 definition.method method.name {
-    color: hsl(210, 100%, 95%);
+    color: hsl(195, 50%, 50%);
+    /* color: hsl(210, 100%, 95%); */
 }
 
 /* Tags */
