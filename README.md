@@ -1,33 +1,16 @@
-<!--
-👋 Hello! As Nova users browse the extensions library, a good README can help them understand what your extension does, how it works, and what setup or configuration it may require.
+# Xcode Dark theme for Nova
 
-Not every extension will need every item described below. Use your best judgement when deciding which parts to keep to provide the best experience for your new users.
+Theme inspired by Xcode's Default Dark theme. Enjoy 😎!
 
-💡 Quick Tip! As you edit this README template, you can preview your changes by selecting **Extensions → Activate Project as Extension**, opening the Extension Library, and selecting "Xcode Dark" in the sidebar.
+![Xcode Dark for Nova](https://github.com/nerdfromthenorth/xcode-dark-nova-theme/raw/master/screenshot.png)
 
-Let's get started!
--->
+## Instructions
 
-<!--
-🎈 To give users an idea of what your theme looks like, it's a great idea to show big, beautiful screenshots of your theme in action:
--->
-
-**Xcode Dark** provides a fun, bright palette:
-
-![](https://nova.app/images/en/dark/editor.png)
-
-<!--
-🎈 If your extension provides multiple variations, don't forget to show those too!
--->
-
-Xcode Dark also offers a lighter alternative:
-
-![](https://nova.app/images/en/light/editor.png)
+1. Go to **Extensions ➞ Extensions Library**. Choose the **Themes** tab and install the theme from here.
+1. Go to **Nova ➞ Preferences**. Choose the **Theme** tab and choose **Xcode Dark** to activate the theme.
 
 ## Acknowledgements
 
-<!--
-🎈 If your theme is based on existing work by someone else, consider crediting the original author
--->
+Xcode Dark is based on _Default Dark theme for Xcode_ by [Apple](https://apple.com).
 
-Xcode Dark is based on _Original Xcode Dark_ by [Lauren Ipsum](https://en.wikipedia.org/wiki/Lorem_ipsum).
+[Nova](https://panic.com/nova) is made by [Panic Inc](https://panic.com).
