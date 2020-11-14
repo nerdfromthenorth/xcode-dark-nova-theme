@@ -2,7 +2,7 @@
 
 Theme inspired by Xcode's Default Dark theme. Enjoy 😎!
 
-![Xcode Dark for Nova](https://github.com/nerdfromthenorth/xcode-dark-nova-theme/raw/master/screenshot.png)
+![Xcode Dark for Nova](https://github.com/nerdfromthenorth/xcode-dark-nova-theme/raw/main/screenshot.png)
 
 ## Instructions
 
