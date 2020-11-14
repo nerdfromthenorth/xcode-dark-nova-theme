@@ -301,3 +301,53 @@ style.value.color.named {
 style.value.identifier.function {
     color: hsl(195, 50%, 50%);
 }
+
+/* Terminal */
+terminal.black {
+    color: hsl(0, 0%, 16%);
+}
+terminal.red {
+    color: hsl(5, 96%, 68%);
+}
+terminal.green {
+    color: hsl(95, 36%, 48%);
+}
+terminal.yellow {
+    color: hsl(50, 52%, 61%);
+}
+terminal.blue {
+    color: hsl(195, 50%, 50%);
+}
+terminal.magenta {
+    color: hsl(267, 72%, 65%);
+}
+terminal.cyan {
+    color: hsl(166, 36%, 56%);
+}
+terminal.white {
+    color: hsl(0, 0%, 75%);
+}
+terminal.bright-black {
+    color: hsl(0, 0%, 28%);
+}
+terminal.bright-red {
+    color: hsl(334, 96%, 68%);
+}
+terminal.bright-green {
+    color: hsl(95, 67%, 67%);
+}
+terminal.bright-yellow {
+    color: hsl(25, 98%, 62%);
+}
+terminal.bright-blue {
+    color: hsl(194, 100%, 68%);
+}
+terminal.bright-magenta {
+    color: hsl(268, 100%, 83%);
+}
+terminal.bright-cyan {
+    color: hsl(166, 75%, 78%);
+}
+terminal.bright-white {
+    color: hsl(0, 0%, 97%);
+}
