@@ -171,7 +171,7 @@ identifier.method {
     color: hsl(195, 50%, 50%);
 }
 identifier.key {
-    color: hsl(194, 100%, 68%);
+    color: hsl(195, 50%, 50%);
 }
 identifier.argument {
     color: hsl(268, 100%, 83%);
@@ -182,7 +182,7 @@ string {
     color: hsl(5, 96%, 68%);
 }
 string.key {
-    color: hsl(194, 100%, 68%);
+    color: hsl(195, 50%, 50%);
 }
 string-template {
     color: hsl(25, 98%, 62%);
@@ -235,7 +235,6 @@ definition.package package.name,
 definition.enum enum.name,
 definition.union union.name,
 definition.struct struct.name {
-    font-weight: bold;
     color: hsl(194, 100%, 68%);
 }
 
@@ -251,7 +250,7 @@ tag {
     color: hsl(195, 50%, 50%);
 }
 tag.framework {
-    color: hsl(267, 72%, 65%);
+    color: hsl(25, 98%, 62%);
 }
 tag.attribute.name {
     color: hsl(194, 100%, 68%);
@@ -266,39 +265,39 @@ tag.attribute.value.link {
 /* Styles */
 style.at {
     color: hsl(25, 98%, 62%);
-    font-weight: bold;
 }
 style.selector.element {
     font-weight: bold;
 }
 style.selector.identifier.id {
-    color: hsl(166, 36%, 56%);
+    color: hsl(166, 75%, 78%);
 }
 style.selector.identifier.class {
-    color: hsl(27, 45%, 54%);
+    color: hsl(166, 75%, 78%);
 }
 style.selector.pseudoclass {
-    color: hsl(27, 45%, 54%);
+    color: hsl(166, 75%, 78%);
 }
 style.selector.pseudoelement {
-    color: hsl(166, 36%, 56%);
+    color: hsl(166, 75%, 78%);
 }
 style.attribute.name {
     color: hsl(166, 36%, 56%);
 }
 style.value.number {
-    color: hsl(268, 100%, 83%);
+    color: hsl(50, 52%, 61%);
 }
 style.value.color.hex {
-    color: hsl(268, 100%, 83%);
+    color: hsl(50, 52%, 61%);
 }
 style.value.keyword {
-    color: hsl(166, 75%, 78%);
+    color: hsl(336, 57%, 63%);
+    font-weight: bold;
 }
 style.value.color.named {
-    color: hsl(166, 75%, 78%);
+    color: hsl(336, 57%, 63%);
+    font-weight: bold;
 }
 style.value.identifier.function {
-    color: hsl(50, 52%, 61%);
-    font-weight: bold;
+    color: hsl(195, 50%, 50%);
 }
