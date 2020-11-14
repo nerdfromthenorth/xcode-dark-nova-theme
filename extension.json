@@ -2,7 +2,9 @@
     "identifier": "com.nerdfromthenorth.XcodeDark",
     "name": "Xcode Dark",
     "organization": "Nerd from the North",
-    "description": "Lorem ipsum, dolor sit amet.",
+    "description": "Xcode Dark theme for Nova.",
     "version": "1.0",
-    "categories": ["themes"]
+    "categories": ["themes"],
+    "repository": "https://github.com/nerdfromthenorth/xcode-dark-nova-theme",
+    "bugs": "https://github.com/nerdfromthenorth/xcode-dark-nova-theme/issues"
 }
